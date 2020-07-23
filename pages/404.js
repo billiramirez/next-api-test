@@ -1,5 +1,10 @@
 import React from "react";
 
 export default function NoFoundPage() {
-  return <h2>Not found</h2>;
+  return (
+    <div>
+      <h2>Not Found</h2>
+      <code>let a = 1 + 4;</code>
+    </div>
+  );
 }
